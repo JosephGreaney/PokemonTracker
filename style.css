@@ -1,8 +1,6 @@
 .gray {
-	filter: contrast(0%) brightness(0%);
-	-webkit-filter: contrast(0%) brightness(0%);
-	//-webkit-filter: grayscale(100%);
-	//filter: grayscale(100%);	
+  filter: contrast(0%) brightness(0%);
+  -webkit-filter: contrast(0%) brightness(0%);	
 }
 
 .caught{
