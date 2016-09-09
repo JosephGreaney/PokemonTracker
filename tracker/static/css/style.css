@@ -1,0 +1,4 @@
+.gray {
+  filter: contrast(0%) brightness(0%);
+  -webkit-filter: contrast(0%) brightness(0%);
+}

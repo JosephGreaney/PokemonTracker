@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokemon Tracker</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="./static/js/jquery-2.2.1.js"></script>
+    <script src="./static/js/tracker.js"></script>
+  </head>
+  <body>
+    <div id="imageBody">
+        {% for i in img_nums %}
+            <img class="pokemon gray" src="./static/img_nums/{{i}}.png" width="100" />
+        {% endfor %}
+    </div>
+  </body>
+</html>
